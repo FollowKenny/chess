@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "chess"
+name = "chess-analysis"
 version = "0.1.0"
 description = ""
 authors = ["Ivan <iv.panico@gmail.com>"]
@@ -7,6 +7,9 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.9"
+requests = "^2.31.0"
+pandas = "^2.1.4"
+chess = "^1.10.0"
 
 [tool.poetry.group.dev.dependencies]
 pre-commit = "^3.6.0"
